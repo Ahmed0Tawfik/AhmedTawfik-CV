@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Tawfik - CV/Resume</title>
+    <meta name="description" content="Computer Engineering student and Software Developer with expertise in .NET, JavaScript, and modern web technologies.">
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background-color: #ffffff;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 64rem;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+            letter-spacing: -0.025em;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        h4 {
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: #374151;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Links */
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #2563eb;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            color: #4b5563;
+        }
+
+        .contact-link {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 3rem;
+        }
+
+        .section-content {
+            margin-top: 1rem;
+        }
+
+        /* Project cards */
+        .project {
+            margin-bottom: 2rem;
+        }
+
+        .project-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-link {
+            color: #2563eb;
+        }
+
+        .project-link:hover {
+            color: #1d4ed8;
+        }
+
+        /* Skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        /* Icons */
+        .icon {
+            width: 1rem;
+            height: 1rem;
+            stroke: currentColor;
+            stroke-width: 1.5;
+            fill: none;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.875rem;
+            padding-top: 2rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .contact-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Ahmed Tawfik</h1>
+            <div class="contact-links">
+                <a href="mailto:ahmedtawfik7581@gmail.com" class="contact-link">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                    ahmedtawfik7581@gmail.com
+                </a>
+                <a href="tel:+201278722695" class="contact-link">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                    +(20) 1278722695
+                </a>
+                <a href="https://www.linkedin.com/in/ahmedd-tawfik/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/Ahmed0Tawfik" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+                    GitHub
+                </a>
+            </div>
+        </header>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="section-content">
+                <div>
+                    <h3>Bachelor of Science in Computer Engineering and Automatic Control</h3>
+                    <p style="color: #6b7280; font-weight: 300;">2022–2027</p>
+                    <p>Tanta University, Junior</p>
+                    <p style="color: #6b7280;">GPA: 3.48</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+            <div class="section-content">
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.5rem;">
+                        <h3>Software Developer Intern</h3>
+                        <span style="color: #6b7280; font-weight: 300;">Apr 2024 – Dec 2024</span>
+                    </div>
+                    <p style="margin-bottom: 0.75rem;">Digital Egypt Pioneers</p>
+                    <p>
+                        Developed a web application using HTML, CSS, JavaScript, C# .NET Core, LINQ, Entity Framework, SQL
+                        Server, and RESTful API to deliver robust and scalable solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Projects -->
+        <section>
+            <h2>Personal Projects</h2>
+            <div class="section-content">
+                <div class="project">
+                    <div class="project-header">
+                        <h3>MyImageService – .NET 9 Image Storage Service</h3>
+                        <a href="https://github.com/Ahmed0Tawfik/MyImageService" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p>
+                        A lightweight and efficient .NET 9 package for image storage on the server, providing secure URLs for
+                        retrieval. Available on NuGet.org as AhmedOTawfik.Services.Images. Enables developers to store,
+                        retrieve, and manage images efficiently.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <h3>Intensive Clean Architecture Template – Minimal APIs</h3>
+                        <a href="https://github.com/Ahmed0Tawfik/CleanArchAppAPI-Compact" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p>
+                        Designed a production-ready Clean Architecture template in .NET Core, featuring a custom Mediator Layer
+                        for efficient communication, Global Exception Handling for uniform API responses, Fluent Validation for
+                        robust data validation, built-in Identity & JWT Authentication, Serilog logging, API documentation, and
+                        Rate Limiting for enhanced security.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <div class="project-header">
+                        <h3>SupaSafe - Backend Developer & Pull Request Reviewer</h3>
+                        <a href="https://github.com/MohannadAK/SupaSafe" target="_blank" rel="noopener noreferrer" class="project-link">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p>
+                        Built and maintained the backend using Node.js, Express.js, and PostgreSQL, ensuring secure
+                        authentication with JWT, bcrypt, and AES-256 encryption. Reviewed team pull requests to uphold code
+                        quality and security standards. Designed scalable architecture with Docker and GitHub Actions for CI/CD.
+                        Project earned recognition from a senior Google engineer and university professor for its robust
+                        security and user-friendly design.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Project -->
+        <section>
+            <h2>Upcoming Project</h2>
+            <p style="color: #6b7280; font-style: italic;">(In Progress) Details to be added upon project completion</p>
+        </section>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Languages</h4>
+                    <p>C#, C++, C, Python, JavaScript</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Databases</h4>
+                    <p>MSSQL, MySQL, PostgreSQL</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Frameworks & Tools</h4>
+                    <p>ASP.NET Core, Blazor, Entity Framework, Git, GitHub, NodeJs, Express, React</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Platforms</h4>
+                    <p>MS Windows, Linux</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Methodologies</h4>
+                    <p>SDLC, Data Structures and Algorithms (DSA), Agile (Scrum, Kanban)</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Architectures</h4>
+                    <p>Clean Architecture, N-tier Architecture, Onion Architecture</p>
+                </div>
+                <div class="skill-category" style="grid-column: 1 / -1;">
+                    <h4>Frontend Technologies</h4>
+                    <p>Light Knowledge of JavaScript, React.js</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Ahmed Tawfik. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html> 
